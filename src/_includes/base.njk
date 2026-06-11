@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if title %}{{ title }} — dharwism{% else %}dharwism{% endif %}</title>
-  <meta name="description" content="{{ description or 'Ragas, ghazals, and the words that go with them.' }}">
-  {% if canonical %}<link rel="canonical" href="https://dharwism.com{{ canonical }}">{% endif %}
+  <title>{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  {% set pageUrl = site.url + (canonical or page.url) %}
+  <link rel="canonical" href="{{ pageUrl }}">
 
-  <!-- Open Graph for nice link previews -->
+  <!-- Open Graph -->
   <meta property="og:type" content="{{ ogType or 'website' }}">
-  <meta property="og:title" content="{{ title or 'dharwism' }}">
-  <meta property="og:description" content="{{ description or 'Ragas, ghazals, and the words that go with them.' }}">
-  <meta property="og:site_name" content="dharwism">
+  <meta property="og:title" content="{{ title or site.title }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:locale" content="{{ site.locale }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title or site.title }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

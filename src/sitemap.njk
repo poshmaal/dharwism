@@ -1,0 +1,16 @@
+---
+permalink: "/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+  <url><loc>{{ site.url }}/ghazals/</loc></url>
+  <url><loc>{{ site.url }}/ragas/</loc></url>
+  {%- for g in ghazals %}
+  <url><loc>{{ site.url }}/ghazals/{{ g.slug }}/</loc></url>
+  {%- endfor %}
+  {%- for r in ragas %}
+  <url><loc>{{ site.url }}/ragas/{{ r.slug }}/</loc></url>
+  {%- endfor %}
+</urlset>

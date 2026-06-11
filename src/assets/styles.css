@@ -219,6 +219,12 @@ a:hover { color: var(--saffron); }
   font-family: var(--util); font-size: 0.74rem; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.9rem;
 }
+.perf { margin: 0 0 1.7rem; }
+.perf:last-child { margin-bottom: 0; }
+.perf figcaption {
+  font-family: var(--util); font-size: 0.8rem; letter-spacing: 0.03em;
+  color: var(--ink-soft); margin-top: 0.55rem; text-align: center; font-style: italic;
+}
 .video-frame {
   position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
   border-radius: 0.6rem; border: 1px solid var(--line);

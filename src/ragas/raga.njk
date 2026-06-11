@@ -12,6 +12,17 @@ eleventyComputed:
   ogType: "article"
   section: "ragas"
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ ("Raga " + raga.name) | dump | safe }},
+  "url": "{{ site.url }}/ragas/{{ raga.slug }}/",
+  "description": {{ (raga.name + " — thaat " + raga.thaat + ", sung at " + raga.samay + ".") | dump | safe }},
+  "author": { "@type": "Person", "name": {{ site.author | dump | safe }} },
+  "isPartOf": { "@type": "WebSite", "name": {{ site.name | dump | safe }}, "url": "{{ site.url }}" }
+}
+</script>
 <article class="raga-page">
   <header class="raga-head">
     <div class="titles">

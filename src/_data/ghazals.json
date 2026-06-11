@@ -5,7 +5,6 @@
     "slug": "aaj-jaane-ki-zid-na-karo",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "aaj jaane kii zid na karo",
@@ -49,6 +48,12 @@
         "term": "Meiraaj",
         "meaning": "A ladder; ascent"
       }
+    ],
+    "performances": [
+      {
+        "label": "Farida Khanum",
+        "youtube": "REPLACE_ME_3"
+      }
     ]
   },
   {
@@ -57,7 +62,6 @@
     "slug": "aaj-sochaa-to-aansoo-bhar-aaye",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Aaj sochaa to aansoo bhar aaye",
@@ -76,7 +80,8 @@
         "Yaad itna bhi koi na aaye"
       ]
     ],
-    "glossary": []
+    "glossary": [],
+    "performances": []
   },
   {
     "title": "Aap ko bhool jaayen hum",
@@ -84,7 +89,6 @@
     "slug": "aap-ko-bhool-jaayen-hum",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "aap ko bhool jaayen hum, itne to bewafa nahin",
@@ -107,7 +111,8 @@
         "kehte hain is gunaah ki, hoti koi saza nahin"
       ]
     ],
-    "glossary": []
+    "glossary": [],
+    "performances": []
   },
   {
     "title": "Agar Mujh se Mohabbat Hai",
@@ -115,7 +120,6 @@
     "slug": "agar-mujh-se-mohabbat-hai",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Agar mujh se mohabbat hai",
@@ -149,7 +153,8 @@
         "term": "Dardo aalam",
         "meaning": "Pain of the world"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Apni aankhon ke samundar mein",
@@ -157,7 +162,6 @@
     "slug": "apni-aankhon-ke-samundar-mein",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "apni aankhon ke samundar mein utar jaane de",
@@ -193,7 +197,8 @@
         "term": "nikhar",
         "meaning": "Blossom, clear up"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Baat Niklegi To Phir",
@@ -201,7 +206,6 @@
     "slug": "baat-niklegi-to-phir",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "baat niklegi to fir duur talak jaayegi",
@@ -245,7 +249,8 @@
         "term": "Taasur",
         "meaning": "Affect"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Humko Kiske Gham nay Maara",
@@ -253,7 +258,6 @@
     "slug": "humko-kiske-gham-nay-maara",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Dil ki choton ne kabhi chain se rehne na diya",
@@ -289,7 +293,8 @@
         "term": "Wafa",
         "meaning": "Loyalty, faithfulness"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Hungama Hai Kyun Barpa",
@@ -297,7 +302,6 @@
     "slug": "hungama-hai-kyun-barpa",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "hungama hai kyuu.N barpaa, tho.Dii si jo pi li hai",
@@ -369,7 +373,8 @@
         "term": "Kaafir",
         "meaning": "Infidel, non-believer"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Mere Ham-nafas Mere Ham-navaa",
@@ -377,7 +382,6 @@
     "slug": "mere-ham-nafas-mere-ham-navaa",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "mere ham-nafas, mere ham-navaa",
@@ -445,7 +449,8 @@
         "term": "Chaman",
         "meaning": "Flower garden"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Pyaar ka Pehla Khat Likhne Mein",
@@ -453,7 +458,6 @@
     "slug": "pyaar-ka-pehla-khat-likhne-mein",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Pyaar ka pehla khat likhne mein, waqt to lagta hai",
@@ -477,7 +481,8 @@
         "term": "ilaaj-e-zaKHm-e-dil",
         "meaning": "Cure for heart-wound"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Rafta Rafta Woh Meri",
@@ -485,7 +490,6 @@
     "slug": "rafta-rafta-woh-meri",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "rafta rafta wo meri hasti ka saamaaN ho gaye",
@@ -537,7 +541,8 @@
         "term": "Unwaan",
         "meaning": "Label, title"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Ranjish hi Sahi",
@@ -545,7 +550,6 @@
     "slug": "ranjish-hi-sahi",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "ranjish hi sahi dil hi dukhane ke liye aa",
@@ -597,6 +601,16 @@
         "term": "dil-e-ḳhush-fahm",
         "meaning": "Heed, attention"
       }
+    ],
+    "performances": [
+      {
+        "label": "Mehdi Hassan",
+        "youtube": "REPLACE_ME_1"
+      },
+      {
+        "label": "Farida Khanum — live",
+        "youtube": "REPLACE_ME_2"
+      }
     ]
   },
   {
@@ -605,7 +619,6 @@
     "slug": "roshan-jamaal-e-yaar",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "raushan jamaal-e-yaar se hai, anjuman tamaam",
@@ -677,7 +690,8 @@
         "term": "Chalan",
         "meaning": "Habit, style"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Saadgi toh Hamari Zara Dekhiye",
@@ -685,7 +699,6 @@
     "slug": "saadgi-toh-hamari-zara-dekhiye",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "saadgi to hamari zara dekhiye,",
@@ -727,7 +740,8 @@
         "term": "dard-e-sar",
         "meaning": "Headache"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Sarakti Jaaye Hai Rukh Se",
@@ -735,7 +749,6 @@
     "slug": "sarakti-jaaye-hai-rukh-se",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "mazaar-e-Qais par, jab roohe Laila ek din ayee",
@@ -797,7 +810,8 @@
         "term": "Uduu",
         "meaning": "Enemy, rival"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Tera Mera Hai Pyaar Amar",
@@ -805,7 +819,6 @@
     "slug": "tera-mera-hai-pyaar-amar",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Jaan-e-tamanna, jaan-e-adaa tujhe, Jaisa hai socha paaya wohi",
@@ -839,7 +852,8 @@
         "term": "Sadaa",
         "meaning": "Voice"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Tere Aane ki Jab Khabar Mehke",
@@ -847,7 +861,6 @@
     "slug": "tere-aane-ki-jab-khabar-mehke",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "tere aane ki jab ḳhabar mehke",
@@ -895,7 +908,8 @@
         "term": "Shajar",
         "meaning": "Tree, plant"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Tere Khushboo Mein Base Khat",
@@ -903,7 +917,6 @@
     "slug": "tere-khushboo-mein-base-khat",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Tere Khushboo mein basey khat main jalata kaise",
@@ -944,7 +957,8 @@
         "term": "Anmol",
         "meaning": "Priceless, invaluable"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Tum Itna Jo Muskuraa Rahi Ho",
@@ -952,7 +966,6 @@
     "slug": "tum-itna-jo-muskuraa-rahi-ho",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "tum itnaa jo muskuraa rahe ho",
@@ -984,7 +997,8 @@
         "term": "Lab",
         "meaning": "Lips"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Tum Mere Paas Nahi Ho",
@@ -992,7 +1006,6 @@
     "slug": "tum-mere-paas-nahi-ho",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "Tum mere paas nahi ho, mujhe iska gum hai",
@@ -1014,7 +1027,8 @@
         "Jaise mere liye khole huwe baazu tum ho"
       ]
     ],
-    "glossary": []
+    "glossary": [],
+    "performances": []
   },
   {
     "title": "Woh Jo Ham Mein Tum Mein",
@@ -1022,7 +1036,6 @@
     "slug": "woh-jo-ham-mein-tum-mein",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "vo jo ham mein tum mein qaraar thaa",
@@ -1064,7 +1077,8 @@
         "term": "Aashnaa",
         "meaning": "Acquaintance, lover"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Ye Dil ye Paagal Dil Mera (Aawaargi)",
@@ -1072,7 +1086,6 @@
     "slug": "ye-dil-ye-paagal-dil-mera",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "ye dil, ye paagal dil meraa, kyo.n bujh gayaa, aawaargi",
@@ -1148,7 +1161,8 @@
         "term": "Sadaa",
         "meaning": "Sound, voice"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Zindagi Mein To Sabhi",
@@ -1156,7 +1170,6 @@
     "slug": "zindagi-mein-to-sabhi",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "zindagi mein to sabhi pyaar kiya karte hain",
@@ -1220,7 +1233,8 @@
         "term": "Unwaan",
         "meaning": "Label, title"
       }
-    ]
+    ],
+    "performances": []
   },
   {
     "title": "Zindagi Se BaDi Sazaa Hi Nahin",
@@ -1228,7 +1242,6 @@
     "slug": "zindagi-se-badi-sazaa-hi-nahin",
     "raga": "",
     "ragaSlug": "",
-    "youtube": "",
     "stanzas": [
       [
         "zindagii se ba.Dii sazaa hii nahii.n",
@@ -1247,6 +1260,7 @@
         "aaiinaa jhuuTh bolataa hii nahii.n"
       ]
     ],
-    "glossary": []
+    "glossary": [],
+    "performances": []
   }
 ]

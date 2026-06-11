@@ -12,6 +12,18 @@ eleventyComputed:
   ogType: "article"
   section: "ghazals"
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicComposition",
+  "name": {{ ghazal.title | dump | safe }},
+  "url": "{{ site.url }}/ghazals/{{ ghazal.slug }}/",
+  "lyricist": { "@type": "Person", "name": {{ ghazal.poet | dump | safe }} },
+  "inLanguage": "ur",
+  {% if ghazal.raga %}"musicalKey": {{ ("Raga " + ghazal.raga) | dump | safe }},{% endif %}
+  "isPartOf": { "@type": "WebSite", "name": {{ site.name | dump | safe }}, "url": "{{ site.url }}" }
+}
+</script>
 <article class="ghazal-page">
   <div class="g-meta">
     <h1>{{ ghazal.title }}</h1>
@@ -43,16 +55,21 @@ eleventyComputed:
   </details>
   {% endif %}
 
-  {% if ghazal.youtube %}
+  {% if ghazal.performances.length %}
   <section class="performance">
-    <h2>Performance</h2>
-    <div class="video-frame">
-      <iframe src="https://www.youtube-nocookie.com/embed/{{ ghazal.youtube }}"
-        title="{{ ghazal.title }} — performance"
-        loading="lazy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
+    <h2>{% if ghazal.performances.length > 1 %}Performances{% else %}Performance{% endif %}</h2>
+    {% for p in ghazal.performances %}
+      <figure class="perf">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/{{ p.youtube }}"
+            title="{{ ghazal.title }}{% if p.label %} — {{ p.label }}{% endif %}"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        {% if p.label %}<figcaption>{{ p.label }}</figcaption>{% endif %}
+      </figure>
+    {% endfor %}
   </section>
   {% endif %}
 
