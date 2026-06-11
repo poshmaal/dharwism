@@ -1,0 +1,62 @@
+---
+pagination:
+  data: ghazals
+  size: 1
+  alias: ghazal
+permalink: "/ghazals/{{ ghazal.slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ ghazal.title }}"
+  description: "{{ ghazal.title }} by {{ ghazal.poet }} — full lyrics in Roman transliteration with a word-by-word glossary.{% if ghazal.raga %} Set in Raga {{ ghazal.raga }}.{% endif %}"
+  canonical: "/ghazals/{{ ghazal.slug }}/"
+  ogType: "article"
+  section: "ghazals"
+---
+<article class="ghazal-page">
+  <div class="g-meta">
+    <h1>{{ ghazal.title }}</h1>
+    <p class="poet">{{ ghazal.poet }}</p>
+    {% if ghazal.raga %}
+      <a class="raga-tag" href="/ragas/{{ ghazal.ragaSlug }}/">Raga {{ ghazal.raga }}</a>
+    {% endif %}
+  </div>
+
+  <div class="verse-field">
+    <div class="drone" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="verses">
+      {% for stanza in ghazal.stanzas %}
+        <div class="stanza">
+          {% for line in stanza %}<div class="line">{{ line }}</div>{% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if ghazal.glossary.length %}
+  <details class="glossary">
+    <summary>Glossary &middot; {{ ghazal.glossary.length }} words</summary>
+    <dl class="gl-list">
+      {% for g in ghazal.glossary %}
+        <div class="gl-row"><dt>{{ g.term }}</dt><dd>{{ g.meaning }}</dd></div>
+      {% endfor %}
+    </dl>
+  </details>
+  {% endif %}
+
+  {% if ghazal.youtube %}
+  <section class="performance">
+    <h2>Performance</h2>
+    <div class="video-frame">
+      <iframe src="https://www.youtube-nocookie.com/embed/{{ ghazal.youtube }}"
+        title="{{ ghazal.title }} — performance"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+  {% endif %}
+
+  <nav class="g-foot">
+    <a href="/ghazals/">&larr; All ghazals</a>
+  </nav>
+</article>

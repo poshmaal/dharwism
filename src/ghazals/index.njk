@@ -1,0 +1,25 @@
+---
+permalink: "/ghazals/"
+layout: base.njk
+title: "Ghazals"
+description: "A collection of ghazals in Roman transliteration with word-by-word glossaries — a singer's reference."
+canonical: "/ghazals/"
+section: "ghazals"
+---
+<div class="hero">
+  <p class="eyebrow">The notebook</p>
+  <h1>Ghazals</h1>
+  <p class="lede">Lyrics in transliteration, with the hard words explained — kept here to glance at while singing, and to share.</p>
+</div>
+
+<div class="ornament">{{ ghazals.length }} ghazals</div>
+
+<nav class="listing">
+  {% for g in ghazals %}
+    <a class="entry" href="/ghazals/{{ g.slug }}/">
+      <span class="e-title">{{ g.title }}</span>
+      <span class="e-poet">{{ g.poet }}</span>
+      {% if g.raga %}<span class="e-raga">{{ g.raga }}</span>{% endif %}
+    </a>
+  {% endfor %}
+</nav>

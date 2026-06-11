@@ -1,0 +1,25 @@
+---
+permalink: "/ragas/"
+layout: base.njk
+title: "Ragas"
+description: "Notes on ragas — thaat, time of day, aroha-avaroha, and mood."
+canonical: "/ragas/"
+section: "ragas"
+---
+<div class="hero">
+  <p class="eyebrow">The framework</p>
+  <h1>Ragas</h1>
+  <p class="lede">Each raga keeps its own hour and its own mood. Short notes on the ones I keep returning to.</p>
+</div>
+
+<div class="ornament">{{ ragas.length }} ragas</div>
+
+<nav class="listing">
+  {% for r in ragas %}
+    <a class="entry" href="/ragas/{{ r.slug }}/">
+      <span class="e-title">{{ r.name }}</span>
+      <span class="e-poet">{{ r.samay }}</span>
+      <span class="e-raga">{{ r.thaat }}</span>
+    </a>
+  {% endfor %}
+</nav>

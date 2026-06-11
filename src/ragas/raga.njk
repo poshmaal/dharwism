@@ -1,0 +1,80 @@
+---
+pagination:
+  data: ragas
+  size: 1
+  alias: raga
+permalink: "/ragas/{{ raga.slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "Raga {{ raga.name }}"
+  description: "Raga {{ raga.name }} — thaat {{ raga.thaat }}, sung at {{ raga.samay }}. Aroha, avaroha, vadi-samvadi, pakad, and mood."
+  canonical: "/ragas/{{ raga.slug }}/"
+  ogType: "article"
+  section: "ragas"
+---
+<article class="raga-page">
+  <header class="raga-head">
+    <div class="titles">
+      <h1>{{ raga.name }}</h1>
+      <p class="thaat">Thaat {{ raga.thaat }}</p>
+      <p class="samay">{{ raga.samay }}</p>
+    </div>
+    {# prahar dial: arc drawn from samayStart over ~3 hours (one prahar) #}
+    {% set startAngle = (raga.samayStart / 24) * 360 - 90 %}
+    {% set endAngle = ((raga.samayStart + 3) / 24) * 360 - 90 %}
+    <svg class="dial" viewBox="0 0 120 120" role="img" aria-label="Time of day this raga is sung">
+      <circle class="face" cx="60" cy="60" r="52"></circle>
+      {# 24 ticks #}
+      {% for h in range(0, 24) %}
+        {% set a = (h / 24) * 360 - 90 %}
+        {% set rad = a * 3.14159265 / 180 %}
+        <line class="tick"
+          x1="{{ 60 + 48 * (rad | cos) }}" y1="{{ 60 + 48 * (rad | sin) }}"
+          x2="{{ 60 + 52 * (rad | cos) }}" y2="{{ 60 + 52 * (rad | sin) }}"></line>
+      {% endfor %}
+      {# the samay arc #}
+      {% set sr = startAngle * 3.14159265 / 180 %}
+      {% set er = endAngle * 3.14159265 / 180 %}
+      <path class="arc"
+        d="M {{ 60 + 44 * (sr | cos) }} {{ 60 + 44 * (sr | sin) }}
+           A 44 44 0 0 1 {{ 60 + 44 * (er | cos) }} {{ 60 + 44 * (er | sin) }}"></path>
+      {# noon marker (top) #}
+      <circle class="sun" cx="60" cy="14" r="2.4"></circle>
+      <text class="lbl" x="60" y="30" text-anchor="middle">12</text>
+      <text class="lbl" x="60" y="100" text-anchor="middle">0</text>
+    </svg>
+  </header>
+
+  <table class="swara-table">
+    <tr><th>Aroha</th><td>{{ raga.aroha }}</td></tr>
+    <tr><th>Avaroha</th><td>{{ raga.avaroha }}</td></tr>
+    <tr><th>Vadi &middot; Samvadi</th><td>{{ raga.vadi }} &middot; {{ raga.samvadi }}</td></tr>
+    <tr><th>Pakad</th><td>{{ raga.pakad }}</td></tr>
+  </table>
+
+  <div class="raga-prose">
+    <p><em>{{ raga.mood }}</em></p>
+    <p>{{ raga.notes }}</p>
+  </div>
+
+  {# any ghazals tagged with this raga #}
+  {% set tagged = [] %}
+  {% for g in ghazals %}{% if g.ragaSlug == raga.slug %}{% set tagged = (tagged.push(g), tagged) %}{% endif %}{% endfor %}
+  {% if tagged.length %}
+  <section class="raga-ghazals">
+    <h2>Ghazals in this raga</h2>
+    <nav class="listing">
+      {% for g in tagged %}
+        <a class="entry" href="/ghazals/{{ g.slug }}/">
+          <span class="e-title">{{ g.title }}</span>
+          <span class="e-poet">{{ g.poet }}</span>
+        </a>
+      {% endfor %}
+    </nav>
+  </section>
+  {% endif %}
+
+  <nav class="g-foot">
+    <a href="/ragas/">&larr; All ragas</a>
+  </nav>
+</article>

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Yaman",
+    "slug": "yaman",
+    "thaat": "Kalyan",
+    "samay": "Evening, first prahar of night",
+    "samayStart": 18,
+    "aroha": "Ni Re Ga Ma\u0301 Pa Dha Ni Sa\u0307",
+    "avaroha": "Sa\u0307 Ni Dha Pa Ma\u0301 Ga Re Sa",
+    "vadi": "Ga",
+    "samvadi": "Ni",
+    "pakad": "Ni Re Ga, Re Ga, Ma\u0301 Pa, Ga Re Sa",
+    "mood": "Serene, devotional, expansive \u2014 often the first raga taught, and the threshold into an evening of music.",
+    "notes": "Uses the sharp Ma (Ma tivra) of the Kalyan thaat. The full octave is available in both ascent and descent, which gives Yaman its open, unhurried character."
+  },
+  {
+    "name": "Bhairavi",
+    "slug": "bhairavi",
+    "thaat": "Bhairavi",
+    "samay": "Morning, but sung to close any concert at any hour",
+    "samayStart": 6,
+    "aroha": "Sa Re\u0331 Ga\u0331 Ma Pa Dha\u0331 Ni\u0331 Sa\u0307",
+    "avaroha": "Sa\u0307 Ni\u0331 Dha\u0331 Pa Ma Ga\u0331 Re\u0331 Sa",
+    "vadi": "Ma",
+    "samvadi": "Sa",
+    "pakad": "Ma Ga\u0331 Re\u0331 Sa, Ga\u0331 Ma Dha\u0331 Pa",
+    "mood": "Tender, plaintive, devotional \u2014 the raga of resolution and farewell.",
+    "notes": "All four komal (flat) swaras give Bhairavi its soft, pleading colour. By convention it is performed last, releasing the audience gently; in light-classical practice many ghazals and bhajans borrow its phrases."
+  },
+  {
+    "name": "Darbari Kanada",
+    "slug": "darbari-kanada",
+    "thaat": "Asavari",
+    "samay": "Late night",
+    "samayStart": 0,
+    "aroha": "Sa Re Ga\u0331 Ma Pa Dha\u0331 Ni\u0331 Sa\u0307",
+    "avaroha": "Sa\u0307 Dha\u0331 Ni\u0331 Pa Ma Pa Ga\u0331 Ma Re Sa",
+    "vadi": "Re",
+    "samvadi": "Pa",
+    "pakad": "Re Sa, Dha\u0331 Ni\u0331 Sa, Ma Pa, Ga\u0331 Ma Re Sa",
+    "mood": "Grave, majestic, contemplative \u2014 attributed to Tansen, said to have been shaped for Akbar's court.",
+    "notes": "Famous for the heavy, oscillating andolan on komal Ga. A deep, serious raga that unfolds slowly in the still hours after midnight."
+  }
+]
