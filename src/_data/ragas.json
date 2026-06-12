@@ -40,5 +40,47 @@
     "pakad": "Re Sa, Dha\u0331 Ni\u0331 Sa, Ma Pa, Ga\u0331 Ma Re Sa",
     "mood": "Grave, majestic, contemplative \u2014 attributed to Tansen, said to have been shaped for Akbar's court.",
     "notes": "Famous for the heavy, oscillating andolan on komal Ga. A deep, serious raga that unfolds slowly in the still hours after midnight."
+  },
+  {
+    "name": "Bhimpalasi",
+    "slug": "bhimpalasi",
+    "thaat": "Kafi",
+    "samay": "Afternoon, third prahar of day",
+    "samayStart": 15,
+    "aroha": "Ni\u0331 Sa Ga\u0331 Ma Pa Ni\u0331 Sa\u0307",
+    "avaroha": "Sa\u0307 Ni\u0331 Dha Pa Ma Ga\u0331 Re Sa",
+    "vadi": "Ma",
+    "samvadi": "Sa",
+    "pakad": "Ni\u0331 Sa Ma, Ma Ga\u0331 Re Sa",
+    "mood": "Tender and yearning \u2014 a wistful, lovelorn afternoon raga that suits the ache of separation.",
+    "notes": "An audava-sampurna raga: five notes ascending (skipping Re and Dha), all seven descending. Both Gandhar and Nishad are komal. Its pull toward longing makes it a natural fit for many ghazals."
+  },
+  {
+    "name": "Kafi",
+    "slug": "kafi",
+    "thaat": "Kafi",
+    "samay": "Late evening; associated with spring and Holi",
+    "samayStart": 21,
+    "aroha": "Sa Re Ga\u0331 Ma Pa Dha Ni\u0331 Sa\u0307",
+    "avaroha": "Sa\u0307 Ni\u0331 Dha Pa Ma Ga\u0331 Re Sa",
+    "vadi": "Pa",
+    "samvadi": "Sa",
+    "pakad": "Sa Sa Re Re Ga\u0331 Ga\u0331 Ma, Pa Dha Ni\u0331 Sa\u0307",
+    "mood": "Light, romantic, folk-tinged \u2014 the raga of thumri, dadra, and the playful songs of spring.",
+    "notes": "Komal Ga and komal Ni over an otherwise natural scale. A semi-classical favourite: relaxed and emotive rather than austere, which is why so much light-classical and ghazal singing lives here."
+  },
+  {
+    "name": "Patdeep",
+    "slug": "patdeep",
+    "thaat": "Kafi",
+    "samay": "Afternoon",
+    "samayStart": 14,
+    "aroha": "Ni\u0331 Sa Ga Ma Pa Ni Sa\u0307",
+    "avaroha": "Sa\u0307 Ni Dha Pa Ma Ga Re Sa",
+    "vadi": "Pa",
+    "samvadi": "Sa",
+    "pakad": "Ma Ga, Ma Pa Ga, Re Sa",
+    "mood": "Warm and stirring \u2014 a bright afternoon raga with an undercurrent of pathos.",
+    "notes": "Resembles Bhimpalasi but uses shuddha (natural) Nishad in ascent against komal Gandhar's softness, giving it a distinct, slightly brighter colour. A pentatonic ascent broadening to a full descent."
   }
 ]
