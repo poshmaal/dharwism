@@ -164,7 +164,7 @@
         "meaning": "Pain of the world"
       }
     ],
-   "performances": [
+    "performances": [
       {
         "label": "Lata Mangeshkar",
         "youtube": "gfDf-IrA5oQ"
@@ -174,7 +174,7 @@
         "youtube": "H8-2LDf_xeo"
       }
     ]
-   },
+  },
   {
     "title": "Apni Aankhon Ke Samundar Mein",
     "poet": "Nazeer Baaqri",
@@ -530,13 +530,13 @@
       ]
     ],
     "glossary": [],
-     "performances": [
+    "performances": [
       {
         "label": "Mehdi Hassan",
         "youtube": "UOEy7LfvaqY"
       }
     ]
- },
+  },
   {
     "title": "Pyaar ka Pehla Khat Likhne Mein",
     "poet": "Hasti Mal Hasti",
@@ -567,7 +567,12 @@
         "meaning": "Cure for heart-wound"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "f1R8rokg8Lg"
+      }
+    ]
   },
   {
     "title": "Rafta Rafta Woh Meri",
@@ -627,7 +632,12 @@
         "meaning": "Label, title"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Mehdi Hassan",
+        "youtube": "hDqB3Ke22iQ"
+      }
+    ]
   },
   {
     "title": "Ranjish hi Sahi",
@@ -776,7 +786,16 @@
         "meaning": "Habit, style"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Mehdi Hassan",
+        "youtube": "agmYZ759WgM"
+      },
+      {
+        "label": "Jagjit Singh",
+        "youtube": "y_anfgq_UsE"
+      }
+    ]
   },
   {
     "title": "Saadgi toh Hamari Zara Dekhiye",
@@ -826,7 +845,12 @@
         "meaning": "Headache"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Zeeshan Ali",
+        "youtube": "uGRw7j2chv4"
+      }
+    ]
   },
   {
     "title": "Sarakti Jaaye Hai Rukh Se",
@@ -896,7 +920,12 @@
         "meaning": "Enemy, rival"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "vukyvBndFR8"
+      }
+    ]
   },
   {
     "title": "Tera Mera Hai Pyaar Amar",
@@ -906,26 +935,26 @@
     "ragaSlug": "",
     "stanzas": [
       [
-        "Jaan-e-tamanna, jaan-e-adaa tujhe, Jaisa hai socha paaya wohi",
-        "Sooraj ki kirnon sa ik chehra, Dekha hai tumsa maine nahin",
-        "Meri mohabbat ka har lamha, tujh mein hi gum sa gaya",
-        "Na main hoon aashiq, na main deewaana, kehdo mujhe jo piya"
+        "jaan-e-tamanna, jaan-e-adaa tujhe, jaisa hai socha paaya wohi",
+        "sooraj ki kirnon sa ik chehra, dekha hai tumsa maine nahin",
+        "meri mohabbat ka har lamha, tujh mein hi gum sa gaya",
+        "na main hoon aashiq, na main deewaana, kehdo mujhe jo piya"
       ],
       [
-        "Tera mera hai pyaar amar, Tu chaahe to qadmon mein sar rakh doon",
-        "Ye jeewan kya, gar maange tu, Meri jaan nazar kar doon"
+        "tera mera hai pyaar amar, tu chaahe to qadmon mein sar rakh doon",
+        "ye jeewan kya, gar maange tu, meri jaan nazar kar doon"
       ],
       [
-        "Noor-e-jahaan aur noor-e-mohabbat, Dono jude tujh se piya",
-        "Paagal ya Jogi mujhko kaho tum, Haan mera ishq sab se juda",
-        "Teri hi khaatir loon sau janam main, Chaahe ho jo bhi bhala",
-        "Na main hoon aashiq, na main deewaana, Keh do mujhe jo piya"
+        "noor-e-jahaan aur noor-e-mohabbat, dono jude tujh se piya",
+        "paagal ya jogi mujhko kaho tum, haan mera ishq sab se juda",
+        "teri hi khaatir loon sau janam main, chaahe ho jo bhi bhala",
+        "na main hoon aashiq, na main deewaana, keh do mujhe jo piya"
       ],
       [
-        "Jab se mili tu dil ko yaqeen hai, Tere liye hi main hoon bana",
-        "Loota hai dil ko teri adaa ne, Ye kaisa mujh pe jaadu kiya",
-        "Meri dua mein, meri sadaa mein, Hota hai naam tera",
-        "Na main hoon aashiq, na main deewaana, Keh do mujhe jo piya"
+        "jab se mili tu dil ko yaqeen hai, tere liye hi main hoon bana",
+        "loota hai dil ko teri adaa ne, ye kaisa mujh pe jaadu kiya",
+        "meri dua mein, meri sadaa mein, hota hai naam tera",
+        "na main hoon aashiq, na main deewaana, keh do mujhe jo piya"
       ]
     ],
     "glossary": [
@@ -938,7 +967,12 @@
         "meaning": "Voice"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ahmed Jehanzeb - Live",
+        "youtube": "8ahntW4-QjM"
+      }
+    ]
   },
   {
     "title": "Tere Aane ki Jab Khabar Mehke",
@@ -994,7 +1028,12 @@
         "meaning": "Tree, plant"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "-G_Xi_x4g1s"
+      }
+    ]
   },
   {
     "title": "Tere Khushboo Mein Base Khat",
@@ -1043,7 +1082,12 @@
         "meaning": "Priceless, invaluable"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh - Live",
+        "youtube": "k2iHLR3_Swk"
+      }
+    ]
   },
   {
     "title": "Tum Itna Jo Muskuraa Rahi Ho",
@@ -1083,7 +1127,12 @@
         "meaning": "Lips"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "C8eAKT-zQXk"
+      }
+    ]
   },
   {
     "title": "Tum Mere Paas Nahi Ho",
@@ -1093,27 +1142,32 @@
     "ragaSlug": "",
     "stanzas": [
       [
-        "Tum mere paas nahi ho, mujhe iska gum hai",
-        "Tum khayaalon mein jo aaye, yehi kya kam hai"
+        "tum mere paas nahi ho, mujhe iska gum hai",
+        "tum khayaalon mein jo aaye, yehi kya kam hai"
       ],
       [
-        "Meri tanhaiyon se tapka huwa aansu tum ho",
-        "Pyar ek phool hai, us phool ki khushboo tum ho",
-        "Mera chehra meri aankhen mere ghesu tum ho"
+        "meri tanhaiyon se tapka huwa aansu tum ho",
+        "pyaar ek phool hai, us phool ki khushboo tum ho",
+        "mera chehra meri aankhen mere ghesu tum ho"
       ],
       [
-        "Door ho mujhse magar, paas nazar aati ho",
-        "Mera jazba mera ehsaas nazar aati ho",
-        "Zindagi banke jo chhaya hai, wo jadu tum ho"
+        "door ho mujhse magar, paas nazar aati ho",
+        "mera jazba mera ehsaas nazar aati ho",
+        "zindagi banke jo chhaya hai, wo jadu tum ho"
       ],
       [
-        "Jab bhi tanhaiyon mein aahat si koi pata hoon",
-        "Ye samajh kar main hawaon se lipat jaata hoon",
-        "Jaise mere liye khole huwe baazu tum ho"
+        "jab bhi tanhaiyon mein aahat si koi pata hoon",
+        "ye samajh kar main hawaon se lipat jaata hoon",
+        "jaise mere liye khole huwe baazu tum ho"
       ]
     ],
     "glossary": [],
-    "performances": []
+    "performances": [
+      {
+        "label": "Sachin Sharma",
+        "youtube": "G-9suzpxcr0"
+      }
+    ]
   },
   {
     "title": "Woh Jo Ham Mein Tum Mein",
@@ -1123,15 +1177,15 @@
     "ragaSlug": "",
     "stanzas": [
       [
-        "vo jo ham mein tum mein qaraar thaa",
+        "woh jo ham mein tum mein qaraar thaa",
         "tumhe.n yaad ho ke na yaad ho",
         "vahii yaanii vaadaa nibaah kaa",
         "tumhe.n yaad ho ke na yaad ho"
       ],
       [
-        "vo naye gile vo shikaayate.n",
-        "vo maze maze kii hikaayate.n",
-        "vo har ek baat pe ruuThanaa",
+        "woh naye gile vo shikaayate.n",
+        "woh maze maze kii hikaayate.n",
+        "woh har ek baat pe ruuThanaa",
         "tumhe.n yaad ho ke na yaad ho"
       ],
       [
@@ -1163,7 +1217,12 @@
         "meaning": "Acquaintance, lover"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ghulam Ali",
+        "youtube": "45gODg3jHDQ"
+      }
+    ]
   },
   {
     "title": "Ye Dil ye Paagal Dil Mera (Aawaargi)",
@@ -1247,7 +1306,12 @@
         "meaning": "Sound, voice"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ghulam Ali",
+        "youtube": "pZWqn3BC17Q"
+      }
+    ]
   },
   {
     "title": "Zindagi Mein To Sabhi",
@@ -1319,7 +1383,12 @@
         "meaning": "Label, title"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Mehdi Hassan",
+        "youtube": "V4hejGiRdSY"
+      }
+    ]
   },
   {
     "title": "Zindagi Se BaDi Sazaa Hi Nahin",
@@ -1346,6 +1415,11 @@
       ]
     ],
     "glossary": [],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ustad Shujaat Khan",
+        "youtube": "2ZWE-bVbveg"
+      }
+    ]
   }
 ]
