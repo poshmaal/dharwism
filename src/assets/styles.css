@@ -298,6 +298,32 @@ a:hover { color: var(--saffron); }
 }
 .site-foot .glyph { color: var(--gilt); font-size: 1.1rem; display: block; margin-bottom: 0.4rem; }
 
+/* ---------- Back-to-top button ---------- */
+.to-top {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  width: 2.85rem;
+  height: 2.85rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--gilt);
+  border-radius: 50%;
+  background: var(--indigo);
+  color: var(--gilt-soft);
+  cursor: pointer;
+  z-index: 50;
+  box-shadow: 0 3px 14px rgba(29,34,68,0.32);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.22s ease, transform 0.22s ease, color 0.15s ease, background 0.15s ease;
+  /* keep clear of iOS home indicator */
+  margin-bottom: env(safe-area-inset-bottom, 0);
+}
+.to-top.show { opacity: 1; transform: translateY(0); }
+.to-top:hover { background: var(--indigo-soft); color: var(--paper-warm); }
+.to-top:active { transform: scale(0.94); }
+
 /* ============================================================
    Accessibility + responsive + print
    ============================================================ */
@@ -307,16 +333,68 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 
 @media (max-width: 600px) {
   .wrap { padding-left: 1.1rem; padding-right: 1.1rem; }
+
+  /* --- tighter vertical rhythm: less dead scrolling --- */
+  .hero { padding: 2.4rem 0 1.4rem; }
+  .hero .lede { font-size: 0.98rem; margin-top: 0.9rem; }
+  .ornament { margin: 1.8rem 0; }
+  .ornament::before, .ornament::after { width: 1.6rem; margin: 0 0.6rem; }
+
+  /* --- index entries become stacked cards --- */
+  .listing { gap: 0.6rem; }
+  .entry {
+    display: block;                 /* stack instead of flex row */
+    padding: 0.95rem 1rem;
+    background: var(--paper-warm);
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    box-shadow: 0 1px 6px var(--shadow);
+    transform: none;                /* no hover slide on touch */
+  }
+  .entry:active { background: #f7eed9; }   /* tap feedback */
+  .entry .e-title {
+    display: block;
+    font-size: 1.16rem;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+  }
+  /* poet + raga share a tidy second row */
+  .entry .e-poet { display: inline; font-size: 0.86rem; }
+  .entry .e-raga {
+    display: inline-block;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    font-size: 0.62rem;
+    padding: 0.12rem 0.5rem;
+  }
+
+  /* --- verse: gutter + hanging indent (from prior fix) --- */
   .verses { font-size: 1.08rem; line-height: 1.55; }
-  /* give the verse a left gutter and seat the drone strings inside it,
-     clear of the text */
   .verse-field { padding-left: 1.1rem; }
   .drone { left: 0; width: 0.55rem; }
   .stanza .line { padding-left: 1.1em; text-indent: -1.1em; }
-  .gl-row { grid-template-columns: 1fr; gap: 0.1rem; margin-bottom: 0.4rem; }
-  .entry { flex-wrap: wrap; gap: 0.3rem; }
-  .entry .e-raga { order: 3; }
-  .site-nav .links { gap: 1rem; width: 100%; margin-left: 0; }
+
+  /* --- ghazal title block: a touch tighter --- */
+  .ghazal-page { padding-top: 1.8rem; }
+  .g-meta .raga-tag { margin-top: 0.7rem; }
+
+  /* --- glossary rows stack --- */
+  .gl-row { grid-template-columns: 1fr; gap: 0.1rem; margin-bottom: 0.5rem; }
+
+  /* --- raga page: dial + title side by side to save height --- */
+  .raga-page { padding-top: 1.8rem; }
+  .raga-head { gap: 1rem; align-items: center; }
+  .dial { width: 84px; height: 84px; }
+  .swara-table th { width: 6.5rem; font-size: 0.66rem; }
+  .swara-table td { font-size: 1.04rem; }
+
+  /* --- nav --- */
+  .site-nav .links { gap: 1.2rem; margin-left: auto; }
+}
+
+/* Comfortable tap targets + no grey tap flash on iOS */
+@media (hover: none) {
+  a, summary, .entry, .to-top { -webkit-tap-highlight-color: transparent; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -327,7 +405,7 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 
 @media print {
   body { background: #fff; }
-  .site-head, .site-nav, .g-foot, .performance, .ornament { display: none; }
+  .site-head, .site-nav, .g-foot, .performance, .ornament, .to-top { display: none; }
   .drone span { animation: none; }
   .glossary summary { display: none; }
   .glossary[open] .gl-list, .gl-list { display: grid !important; }

@@ -48,5 +48,32 @@
     <span class="glyph">&#x266B;</span>
     <p>dharwism &middot; ragas &amp; ghazals</p>
   </footer>
+
+  <button id="to-top" class="to-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+      <path d="M12 5l-7 7m7-7l7 7M12 5v14" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <script>
+    (function () {
+      var btn = document.getElementById('to-top');
+      if (!btn) return;
+      var shown = false;
+      function update() {
+        var should = window.scrollY > 600;
+        if (should === shown) return;
+        shown = should;
+        if (should) { btn.hidden = false; requestAnimationFrame(function(){ btn.classList.add('show'); }); }
+        else { btn.classList.remove('show'); setTimeout(function(){ if(!shown) btn.hidden = true; }, 250); }
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      btn.addEventListener('click', function () {
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      });
+      update();
+    })();
+  </script>
 </body>
 </html>
