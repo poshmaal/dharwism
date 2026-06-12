@@ -191,8 +191,9 @@ a:hover { color: var(--saffron); }
 .verses { font-size: 1.32rem; line-height: 1.5; }
 .stanza { margin: 0 0 1.5em; }
 .stanza:last-child { margin-bottom: 0; }
-.stanza .line { padding: 0.06em 0; }
-/* The maqta / refrain emphasis is left to the poem's natural shape */
+/* Hanging indent: a line that wraps gets its continuation indented,
+   so a wrapped line never reads as a deliberate new line. */
+.stanza .line { padding: 0.06em 0 0.06em 1.3em; text-indent: -1.3em; }
 
 /* glossary */
 .glossary {
@@ -305,8 +306,13 @@ a:focus-visible, summary:focus-visible, button:focus-visible {
 }
 
 @media (max-width: 600px) {
-  .verses { font-size: 1.16rem; }
-  .drone { left: -1.2rem; width: 0.8rem; }
+  .wrap { padding-left: 1.1rem; padding-right: 1.1rem; }
+  .verses { font-size: 1.08rem; line-height: 1.55; }
+  /* give the verse a left gutter and seat the drone strings inside it,
+     clear of the text */
+  .verse-field { padding-left: 1.1rem; }
+  .drone { left: 0; width: 0.55rem; }
+  .stanza .line { padding-left: 1.1em; text-indent: -1.1em; }
   .gl-row { grid-template-columns: 1fr; gap: 0.1rem; margin-bottom: 0.4rem; }
   .entry { flex-wrap: wrap; gap: 0.3rem; }
   .entry .e-raga { order: 3; }
