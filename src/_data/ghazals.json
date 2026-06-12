@@ -117,7 +117,12 @@
       ]
     ],
     "glossary": [],
-    "performances": []
+    "performances": [
+      {
+        "label": "Mehdi Hassan - Live",
+        "youtube": "fURzs4YwT3E"
+      }
+    ]
   },
   {
     "title": "Agar Mujhse Mohabbat Hai",
@@ -159,8 +164,17 @@
         "meaning": "Pain of the world"
       }
     ],
-    "performances": []
-  },
+   "performances": [
+      {
+        "label": "Lata Mangeshkar",
+        "youtube": "gfDf-IrA5oQ"
+      },
+      {
+        "label": "Ustad Shafqat Ali Khan",
+        "youtube": "H8-2LDf_xeo"
+      }
+    ]
+   },
   {
     "title": "Apni Aankhon Ke Samundar Mein",
     "poet": "Nazeer Baaqri",
@@ -203,7 +217,12 @@
         "meaning": "Blossom, clear up"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "xG8qASTKkyY"
+      }
+    ]
   },
   {
     "title": "Baat Niklegi To Phir",
@@ -255,10 +274,15 @@
         "meaning": "Affect"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Jagjit Singh",
+        "youtube": "1MKdWpE_724"
+      }
+    ]
   },
   {
-    "title": "Humko Kiske Gham nay Maara",
+    "title": "Humko Kiske Gham Nay Maara",
     "poet": "Masroor Anwar",
     "slug": "humko-kiske-gham-nay-maara",
     "raga": "Darbari Kanada",
@@ -297,7 +321,12 @@
         "meaning": "Loyalty, faithfulness"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ghulam Ali",
+        "youtube": "LnVW-lYaRIs"
+      }
+    ]
   },
   {
     "title": "Hungama Hai Kyun Barpa",
@@ -377,7 +406,12 @@
         "meaning": "Infidel, non-believer"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Ghulam Ali",
+        "youtube": "xQsMn1kmJs4"
+      }
+    ]
   },
   {
     "title": "Mere Ham-nafas Mere Ham-navaa",
@@ -453,7 +487,12 @@
         "meaning": "Flower garden"
       }
     ],
-    "performances": []
+    "performances": [
+      {
+        "label": "Farida Khanum",
+        "youtube": "wFpK90fPA3A"
+      }
+    ]
   },
   {
     "title": "Pyaar Bhare Do Sharmile Nain",
@@ -491,8 +530,13 @@
       ]
     ],
     "glossary": [],
-    "performances": []
-  },
+     "performances": [
+      {
+        "label": "Mehdi Hassan",
+        "youtube": "UOEy7LfvaqY"
+      }
+    ]
+ },
   {
     "title": "Pyaar ka Pehla Khat Likhne Mein",
     "poet": "Hasti Mal Hasti",
