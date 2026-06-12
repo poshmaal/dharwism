@@ -52,7 +52,7 @@
     "performances": [
       {
         "label": "Farida Khanum",
-        "youtube": "REPLACE_ME_3"
+        "youtube": "CfUDuYAasjE"
       }
     ]
   },
@@ -60,28 +60,33 @@
     "title": "Aaj Sochaa to Aansoo Bhar Aaye",
     "poet": "Kaifi Azmi",
     "slug": "aaj-sochaa-to-aansoo-bhar-aaye",
-    "raga": "",
-    "ragaSlug": "",
+    "raga": "Shivaranjani",
+    "ragaSlug": "shivaranjani",
     "stanzas": [
       [
-        "Aaj sochaa to aansoo bhar aaye",
-        "Muddate ho gayee muskuraae"
+        "aaj sochaa to aansoo bhar aaye",
+        "muddate ho gayee muskuraae"
       ],
       [
-        "Har kadam par udhar mud ke dekha",
-        "Unki mehfil se hum uth to aaye"
+        "har kadam par udhar mud ke dekha",
+        "unki mehfil se hum uth to aaye"
       ],
       [
-        "Reh gayi zindagi dard banke",
-        "Dard dil me chhupaye chhupaye"
+        "reh gayi zindagi dard banke",
+        "dard dil me chhupaye chhupaye"
       ],
       [
-        "Dil ki naazuk rage.n tootati hai",
-        "Yaad itna bhi koi na aaye"
+        "dil ki naazuk rage.n tootati hai",
+        "yaad itna bhi koi na aaye"
       ]
     ],
     "glossary": [],
-    "performances": []
+    "performances": [
+      {
+        "label": "Lata Mangeshkar",
+        "youtube": "bfnRD6y-JbU"
+      }
+    ]
   },
   {
     "title": "Aap ko bhool jaayen hum",
@@ -115,37 +120,37 @@
     "performances": []
   },
   {
-    "title": "Agar Mujh se Mohabbat Hai",
+    "title": "Agar Mujhse Mohabbat Hai",
     "poet": "Raja Mehdi Ali Khan",
-    "slug": "agar-mujh-se-mohabbat-hai",
-    "raga": "",
-    "ragaSlug": "",
+    "slug": "agar-mujhse-mohabbat-hai",
+    "raga": "Darbari Kanada",
+    "ragaSlug": "darbari-kanada",
     "stanzas": [
       [
-        "Agar mujh se mohabbat hai",
-        "Mujhe sab apne gham de do",
-        "In aankho ka har ik aansu",
-        "Mujhe meri kasam de do"
+        "agar mujh se mohabbat hai",
+        "mujhe sab apne gham de do",
+        "in aankho ka har ik aansu",
+        "mujhe meri kasam de do"
       ],
       [
-        "Tumhare gham ko apna",
-        "Gham banaa lu to karar aaye",
-        "Tumharaa dard seene mein",
-        "Chhupa lu to karar aaye"
+        "tumhare gham ko apna",
+        "gham banaa lu to karar aaye",
+        "tumharaa dard seene mein",
+        "chhupa lu to karar aaye"
       ],
       [
-        "Woh har shay jo tumhen dukh de",
-        "Mujhe mere sanam de do"
+        "woh har shay jo tumhen dukh de",
+        "mujhe mere sanam de do"
       ],
       [
-        "In aankho mein ab",
-        "Kabhi aansoo nazar aaye",
-        "Sada hasti rahen aankhe",
-        "Sada ye honth muskaaye"
+        "in aankho mein ab",
+        "kabhi aansoo nazar aaye",
+        "sada hasti rahen aankhe",
+        "sada ye honth muskaaye"
       ],
       [
-        "Muje apni sabhi aahen",
-        "Sabhi dardo aalam de do"
+        "mujhe apni sabhi aahen",
+        "sabhi dardo aalam de do"
       ]
     ],
     "glossary": [
@@ -157,7 +162,7 @@
     "performances": []
   },
   {
-    "title": "Apni aankhon ke samundar mein",
+    "title": "Apni Aankhon Ke Samundar Mein",
     "poet": "Nazeer Baaqri",
     "slug": "apni-aankhon-ke-samundar-mein",
     "raga": "",
@@ -256,32 +261,30 @@
     "title": "Humko Kiske Gham nay Maara",
     "poet": "Masroor Anwar",
     "slug": "humko-kiske-gham-nay-maara",
-    "raga": "Darbari",
-    "ragaSlug": "darbari",
+    "raga": "Darbari Kanada",
+    "ragaSlug": "darbari-kanada",
     "stanzas": [
       [
-        "Dil ki choton ne kabhi chain se rehne na diya",
-        "Jab chali sard hawa maine tujhe yaad kiya"
+        "dil ki choton ne kabhi chain se rehne na diya",
+        "jab chali sard hawa maine tujhe yaad kiya",
+        "iska rona nahi kyun tumne kiya dil barbaad",
+        "iska gham hai ke bahut dair mein barbaad kiya"
       ],
       [
-        "Iska rona nahi kyun tumne kiya dil barbaad",
-        "Iska gham hai ke bahut dair mein barbaad kiya"
+        "humko kiske gham ne maara, yeh kahaani phir sahi",
+        "kisne tora dil hamara, yeh kahaani phir sahi"
       ],
       [
-        "Humko kiske gham ne maara, yeh kahaani phir sahi",
-        "Kisne tora dil hamara, yeh kahaani phir sahi"
+        "dil kay lutnay ka sabab, poocho na sabke saamnay",
+        "naam aayega tumhara, yeh kahaani phir sahi"
       ],
       [
-        "Dil kay lutnay ka sabab, poocho na sabke saamnay",
-        "Naam aayega tumhara, yeh kahaani phir sahi"
+        "nafraton ke teer kha kar, doston ke shehar mein",
+        "humne kis kis ko pukara, yeh kahaani phir sahi"
       ],
       [
-        "Nafraton ke teer kha kar, doston ke shehar mein",
-        "Humne kis kis ko pukara, yeh kahaani phir sahi"
-      ],
-      [
-        "Kya batayein pyaar ki, baazi wafa ki rah mein,",
-        "Kaun jeeta kaun haara, yeh kahaani phir sahi"
+        "kya batayein pyaar ki, baazi wafa ki rah mein,",
+        "kaun jeeta kaun haara, yeh kahaani phir sahi"
       ]
     ],
     "glossary": [
@@ -300,8 +303,8 @@
     "title": "Hungama Hai Kyun Barpa",
     "poet": "Akbar Allahabadi",
     "slug": "hungama-hai-kyun-barpa",
-    "raga": "Darbari",
-    "ragaSlug": "darbari",
+    "raga": "Darbari Kanada",
+    "ragaSlug": "darbari-kanada",
     "stanzas": [
       [
         "hungama hai kyuu.N barpaa, tho.Dii si jo pi li hai",
@@ -380,8 +383,8 @@
     "title": "Mere Ham-nafas Mere Ham-navaa",
     "poet": "Shakeel Badayuni",
     "slug": "mere-ham-nafas-mere-ham-navaa",
-    "raga": "Darbari",
-    "ragaSlug": "darbari",
+    "raga": "Darbari Kanada",
+    "ragaSlug": "darbari-kanada",
     "stanzas": [
       [
         "mere ham-nafas, mere ham-navaa",
@@ -498,20 +501,20 @@
     "ragaSlug": "",
     "stanzas": [
       [
-        "Pyaar ka pehla khat likhne mein, waqt to lagta hai",
-        "Naye parindo ko udne mein, waqt to lagta hai"
+        "pyaar ka pehla khat likhne mein, waqt to lagta hai",
+        "naye parindo ko udne mein, waqt to lagta hai"
       ],
       [
-        "Jism ki baat nahi thi, unke dil tak jaana tha",
-        "Lambi doori, tay karne mein, waqt to lagta hai"
+        "jism ki baat nahi thi, unke dil tak jaana tha",
+        "lambi doori, tay karne mein, waqt to lagta hai"
       ],
       [
-        "Gaanth agar lag jaye to phir, rishte ho ya dori",
-        "Laakh kare koshish, khulne me, waqt to lagta hai"
+        "gaanth agar lag jaye to phir, rishte ho ya dori",
+        "laakh kare koshish, khulne me, waqt to lagta hai"
       ],
       [
-        "Humne ilaaj-e-zaKHm-e-dil to, dhoond liya lekin",
-        "Gahray zakhmo ko bharne mein, waqt to lagta hai"
+        "humne ilaaj-e-zaKHm-e-dil to, dhoond liya lekin",
+        "gahray zakhmo ko bharne mein, waqt to lagta hai"
       ]
     ],
     "glossary": [
@@ -643,11 +646,11 @@
     "performances": [
       {
         "label": "Mehdi Hassan",
-        "youtube": "REPLACE_ME_1"
+        "youtube": "Xc6uwbXpmUY"
       },
       {
-        "label": "Farida Khanum — live",
-        "youtube": "REPLACE_ME_2"
+        "label": "Ali Sethi — Coke Studio",
+        "youtube": "pba_YmWDAIU"
       }
     ]
   },
