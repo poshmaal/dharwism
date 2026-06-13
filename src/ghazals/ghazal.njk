@@ -73,6 +73,15 @@ eleventyComputed:
   </section>
   {% endif %}
 
+  {% set note = notes[ghazal.slug] %}
+  {% if note %}
+  <section class="notes">
+    <h2>Notes &amp; Background</h2>
+    <div class="notes-body">{{ note.html | safe }}</div>
+    <p class="notes-updated">Last updated {{ note.updated }}</p>
+  </section>
+  {% endif %}
+
   <nav class="g-foot">
     <a href="/ghazals/">&larr; All ghazals</a>
   </nav>

@@ -1,0 +1,46 @@
+---
+permalink: "/contact/"
+layout: base.njk
+title: "Contact"
+description: "About dharwism, and how to get in touch — feedback, corrections, and notes on the ghazals and ragas are always welcome."
+canonical: "/contact/"
+section: "contact"
+---
+<div class="hero">
+  <p class="eyebrow">Say hello</p>
+  <h1>Contact</h1>
+  <p class="lede">Feedback, corrections, a ghazal you&rsquo;d like to see, or a better reading of a line &mdash; all of it is welcome.</p>
+</div>
+
+<div class="ornament">About</div>
+
+<div class="page-prose">
+  <p>dharwism is a small, personal collection &mdash; ghazals written out to sing from, with the difficult words explained, and short notes on the ragas that hold them. It grows slowly, a poem and a raga at a time.</p>
+
+  <p>Much of this is a labour of love around Urdu and the ghazal tradition. If you spot an error in a transliteration, know a finer rendition of a ghazal, or can shed light on a couplet, I&rsquo;d genuinely like to hear from you &mdash; corrections from careful listeners are the best thing that can happen to a page like this.</p>
+
+  <p class="contact-line">
+    <a id="email-link" class="email-btn" href="#">Email me</a>
+  </p>
+  <p class="contact-fallback" id="email-fallback" hidden></p>
+</div>
+
+<script>
+  // Assemble the address at runtime so it isn't sitting in the HTML for scrapers.
+  (function () {
+    var user = "navrehcom";
+    var domain = "gmail.com";
+    var addr = user + "@" + domain;
+    var subject = encodeURIComponent("dharwism — feedback");
+    var link = document.getElementById("email-link");
+    if (link) {
+      link.href = "mailto:" + addr + "?subject=" + subject;
+    }
+    // Also reveal a readable address for those who prefer to copy it.
+    var fb = document.getElementById("email-fallback");
+    if (fb) {
+      fb.textContent = addr;
+      fb.hidden = false;
+    }
+  })();
+</script>

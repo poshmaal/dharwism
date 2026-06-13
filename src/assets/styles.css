@@ -119,6 +119,41 @@ a:hover { color: var(--saffron); }
 }
 
 /* ============================================================
+   Contact / about prose page
+   ============================================================ */
+.page-prose {
+  max-width: var(--measure);
+  margin: 0 auto;
+  font-size: 1.08rem;
+  line-height: 1.74;
+}
+.page-prose p { margin: 0 0 1.15rem; }
+.contact-line { margin-top: 2rem !important; text-align: center; }
+.email-btn {
+  display: inline-block;
+  font-family: var(--util);
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--paper-warm);
+  background: var(--indigo);
+  border: 1px solid var(--gilt);
+  border-radius: 1.6rem;
+  padding: 0.7rem 1.8rem;
+  transition: background 0.16s ease, color 0.16s ease;
+}
+.email-btn:hover { background: var(--indigo-soft); color: var(--paper-warm); }
+.contact-fallback {
+  text-align: center;
+  font-family: var(--util);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin: 0.9rem 0 0 !important;
+  letter-spacing: 0.02em;
+}
+
+/* ============================================================
    Index listings (ghazals + ragas)
    ============================================================ */
 .listing { display: grid; gap: 0.2rem; margin: 0 auto; max-width: var(--measure); }
@@ -232,6 +267,56 @@ a:hover { color: var(--saffron); }
   box-shadow: 0 2px 16px var(--shadow);
 }
 .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Notes & Background — editorial prose section */
+.notes {
+  max-width: var(--measure);
+  margin: 3rem auto 0;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+.notes h2 {
+  font-family: var(--util);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 1.1rem;
+}
+.notes-body {
+  font-size: 1.04rem;
+  line-height: 1.72;
+  color: var(--ink);
+}
+.notes-body p { margin: 0 0 1.05rem; }
+.notes-body p:last-child { margin-bottom: 0; }
+.notes-body h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 1.8rem 0 0.6rem;
+}
+.notes-body a { color: var(--madder); }
+.notes-body a:hover { color: var(--saffron); }
+.notes-body strong { font-weight: 600; }
+.notes-body em { font-style: italic; }
+.notes-body ul, .notes-body ol { margin: 0 0 1.05rem; padding-left: 1.3rem; }
+.notes-body li { margin: 0.3rem 0; }
+.notes-body blockquote {
+  margin: 1.2rem 0;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  border-left: 2px solid var(--gilt);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.notes-updated {
+  margin: 1.5rem 0 0;
+  font-family: var(--util);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-style: italic;
+}
 
 /* prev / next + back */
 .g-foot {
